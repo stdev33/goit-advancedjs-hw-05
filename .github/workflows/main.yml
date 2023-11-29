@@ -18,11 +18,14 @@ jobs:
       with:
         node-version: '20.9.0'
 
-    - name: Install dependencies
+    - name: Install dependencies 🔧
       run: npm install
 
-    - name: Build TypeScript
+    - name: Build TypeScript 🔧
       run: npm run build
+
+    - name: Copy HTML files to dist
+      run: cp *.html dist/
 
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.3
