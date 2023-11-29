@@ -1,0 +1,16 @@
+{
+  "name": "goit-advancedjs-hw-05",
+  "version": "1.0.0",
+  "description": "Homework 5. Tier 2. Advanced JavaScript and TypeScript: Tools and Best Practices at GoIT Neoversity",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Serhii Tarasenko <stdev33@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
+  }
+}
